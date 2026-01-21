@@ -1,0 +1,12 @@
+### POST request to create a new patient
+POST http://localhost:4000/api/v1/patients
+Content-Type: application/json
+
+{
+  "name": "Jhony Deep Doo 2",
+  "email": "jhonydeepdoo2@gmail.com",
+  "address": "12345 Street LA",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2026-01-21"
+}
+###
