@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bbc9bd7-3472-4084-98e0-036241035798" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +68,7 @@
     "HTTP Request.create-billing-account | GRPC request to create account billing.executor": "Run",
     "HTTP Request.get-patients | GET request to get all patients.executor": "Run",
     "HTTP Request.login | POST request to login and retrive a token.executor": "Run",
+    "HTTP Request.update-patient | PUT request to update an existing patient entity.executor": "Run",
     "HTTP Request.validate | GET request to validate token.executor": "Run",
     "Maven.billing-service [compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -86,12 +81,13 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SHELLCHECK.PATH": "C:\\Users\\mdedealf\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\Shell Script\\shellcheck.exe",
     "Spring Boot.AuthServiceApplication.executor": "Run",
     "Spring Boot.BillingServiceApplication.executor": "Run",
     "Spring Boot.PatientServiceApplication.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feat/docker",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -146,9 +142,9 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
-              <entry key="create-billing-account | GRPC request to create account billing" value="STOPPED" />
               <entry key="get-patients | GET request to get all patients" value="STOPPED" />
               <entry key="login | POST request to login and retrive a token" value="STOPPED" />
+              <entry key="update-patient | PUT request to update an existing patient entity" value="STOPPED" />
               <entry key="validate | GET request to validate token" value="STOPPED" />
             </map>
           </value>
@@ -366,7 +362,7 @@
       <workItem from="1770176283976" duration="1018000" />
       <workItem from="1770177320677" duration="1916000" />
       <workItem from="1770205213904" duration="209000" />
-      <workItem from="1770205440067" duration="5291000" />
+      <workItem from="1770205440067" duration="6238000" />
     </task>
     <servers />
   </component>
