@@ -1,0 +1,6 @@
+.env
+.env.*
+
+.idea/workspace.xml
+.idea/dataSources.local.xml
+
