@@ -5,32 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bbc9bd7-3472-4084-98e0-036241035798" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-requests/auth-service/login.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-requests/auth-service/validate.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/mdedealf/authservice/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/mdedealf/authservice/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/mdedealf/authservice/dto/LoginRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/mdedealf/authservice/dto/LoginResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/mdedealf/authservice/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/mdedealf/authservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/mdedealf/authservice/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/mdedealf/authservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/mdedealf/authservice/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/mdedealf/patientservice/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/mdedealf/patientservice/controller/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,59 +62,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Application.BillingServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatientServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.auth-service-db.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.billing-service.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.kafka.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.patient-service-db.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.create-billing-account | GRPC request to create account billing.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.get-patients | GET request to get all patients.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.login | POST request to login and retrive a token.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.validate | GET request to validate token.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.billing-service [compile].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\mdedealf\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\Shell Script\\shellcheck.exe&quot;,
-    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.BillingServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.PatientServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/grpc-create-billing&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PROGRAMMING/patient-management/auth-service&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.BillingServiceApplication.executor": "Run",
+    "Application.PatientServiceApplication.executor": "Run",
+    "Docker.auth-service-db.executor": "Run",
+    "Docker.billing-service.executor": "Run",
+    "Docker.kafka.executor": "Run",
+    "Docker.patient-service-db.executor": "Run",
+    "HTTP Request.create-billing-account | GRPC request to create account billing.executor": "Run",
+    "HTTP Request.get-patients | GET request to get all patients.executor": "Run",
+    "HTTP Request.login | POST request to login and retrive a token.executor": "Run",
+    "HTTP Request.validate | GET request to validate token.executor": "Run",
+    "Maven.billing-service [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\mdedealf\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\Shell Script\\shellcheck.exe",
+    "Spring Boot.AuthServiceApplication.executor": "Run",
+    "Spring Boot.BillingServiceApplication.executor": "Run",
+    "Spring Boot.PatientServiceApplication.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/PROGRAMMING/patient-management",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PROGRAMMING\patient-management\auth-service" />
@@ -182,22 +163,38 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PatientServiceApplication">
-    <configuration name="create-billing-account | GRPC request to create account billing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/grpc-requests/billing-service/create-billing-account.http" executionIdentifier="GRPC request to create account billing" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="HTTP Request.update-patient | PUT request to update an existing patient entity">
     <configuration name="get-patients | GET request to get all patients" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" executionIdentifier="GET request to get all patients" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="login | POST request to login and retrive a token" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/auth-service/login.http" executionIdentifier="POST request to login and retrive a token" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="update-patient | PUT request to update an existing patient entity" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/update-patient.http" executionIdentifier="PUT request to update an existing patient entity" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="validate | GET request to validate token" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/auth-service/validate.http" executionIdentifier="GET request to validate token" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2" />
     </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mdedealf.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="billing-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mdedealf.billingservice.BillingServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -303,20 +300,21 @@
       <item itemvalue="Docker.api-gateway" />
       <item itemvalue="Docker.billing-service" />
       <item itemvalue="Docker.patient-service" />
+      <item itemvalue="HTTP Request.update-patient | PUT request to update an existing patient entity" />
       <item itemvalue="HTTP Request.login | POST request to login and retrive a token" />
       <item itemvalue="HTTP Request.validate | GET request to validate token" />
-      <item itemvalue="HTTP Request.create-billing-account | GRPC request to create account billing" />
       <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
+      <item itemvalue="Spring Boot.BillingServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.PatientServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.update-patient | PUT request to update an existing patient entity" />
+        <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
         <item itemvalue="Spring Boot.PatientServiceApplication" />
         <item itemvalue="HTTP Request.validate | GET request to validate token" />
         <item itemvalue="HTTP Request.login | POST request to login and retrive a token" />
-        <item itemvalue="HTTP Request.create-billing-account | GRPC request to create account billing" />
-        <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
       </list>
     </recent_temporary>
   </component>
@@ -367,6 +365,8 @@
       <workItem from="1770118066537" duration="68000" />
       <workItem from="1770176283976" duration="1018000" />
       <workItem from="1770177320677" duration="1916000" />
+      <workItem from="1770205213904" duration="209000" />
+      <workItem from="1770205440067" duration="5291000" />
     </task>
     <servers />
   </component>

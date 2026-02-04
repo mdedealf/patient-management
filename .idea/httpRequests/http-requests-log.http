@@ -1,3 +1,147 @@
+PUT http://localhost:4000/patients/ab3d2398-9994-4a32-a207-c3dcece6e914
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Jhony Deep Doo updated success",
+  "email": "jhonydeepdooupdated@gmail.com",
+  "address": "12345 Street LA",
+  "dateOfBirth": "1995-09-09"
+}
+
+<> 2026-02-04T204928.400.json
+
+###
+
+GET http://localhost:4000/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204904.200.json
+
+###
+
+GET http://localhost:4000/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204901.200.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204809.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204719.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204711.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204708.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204707.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204705.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204701.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204656.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204652.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204649.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204548.404.json
+
+###
+
+GET http://localhost:4000/api/v1/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-04T204545.404.json
+
+###
+
 GET http://localhost:4005/validate
 Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc2OTQ5Njg2MywiZXhwIjoxNzY5NTMyODYzfQ.8LZZt3-u_OAMEe1TlVaVk28s1OKt3tmGZmEAgnW8ZWVc4OAZXDgSzO_mdfeQ3yQKLfZgCm64fJdX-UbesunEMQ
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
