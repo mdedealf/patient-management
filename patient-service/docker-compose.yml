@@ -1,25 +1,36 @@
 services:
   db:
-    image: postgres:16-alpine
+    image: postgres:latest
     container_name: patient-service-db
-    env_file:
-      - .env
+    environment:
+      POSTGRES_USER: admin_user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: db
     ports:
       - "5000:5432"
     volumes:
-      - patient-db-data:/var/lib/postgresql/data
+      - D:/Docker/db_volumes/patient-service-db:/var/lib/postgresql
+    networks:
+      - internal
     restart: unless-stopped
 
   app:
     build: .
-    container_name: patient-service-app
-    env_file:
-      - .env
+    container_name: patient-service
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://patient-service-db:5432/db
+      SPRING_DATASOURCE_USERNAME: admin_user
+      SPRING_DATASOURCE_PASSWORD: password
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_SQL_INIT_MODE: always
     ports:
       - "4000:4000"
     depends_on:
       - db
+    networks:
+      - internal
     restart: unless-stopped
 
-volumes:
-  patient-db-data:
+networks:
+  internal:
+    driver: bridge
