@@ -3,4 +3,6 @@
 
 .idea/workspace.xml
 .idea/dataSources.local.xml
-
+.idea/httpRequests/http-requests-log.http
+.idea/httpRequests/*.json
+.idea/httpRequests/
