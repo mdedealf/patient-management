@@ -1,6 +1,8 @@
 .env
 .env.*
 
+.idea
+.idea/*
 .idea/workspace.xml
 .idea/dataSources.local.xml
 .idea/httpRequests/http-requests-log.http
