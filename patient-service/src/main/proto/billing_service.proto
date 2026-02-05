@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+//Split service request and response all in different files
+option java_multiple_files = true;
+
+// Put all code in a package billing
+option java_package = "billing";
+
+// Specify method for service
+service BillingService {
+  rpc CreateBillingAccount (BillingRequest) returns (BillingResponse);
+}
+
+// DTO or java object (think this like that)
+message BillingRequest {
+  string patientId = 1; // number should be unique (help grpc and proto)
+  string name = 2;
+  string email = 3;
+}
+
+message BillingResponse {
+  string accountId = 1;
+  string status = 2;
+}
